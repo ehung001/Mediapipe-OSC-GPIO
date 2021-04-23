@@ -21,8 +21,8 @@ from pythonosc.osc_server import BlockingOSCUDPServer
 from pythonosc import osc_server
 import threading
 
-ip = "192.168.167.133"
-fromSensing = 9998
+ip = "" #ip address
+fromSensing = 9998 #depending on which port
 
 level = 127
 state = 0
