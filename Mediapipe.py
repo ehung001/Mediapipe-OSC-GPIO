@@ -14,12 +14,12 @@ from pythonosc.osc_server import BlockingOSCUDPServer
 from pythonosc import osc_server
 import threading
 
-rpi_ip = "192.168.167.93"
+rpi_ip = "" #ip address
 toMotors = 9995
 # fromZigSim = 50001
 client = SimpleUDPClient(rpi_ip, toMotors)  # Create client
 
-rpi_ip2 = "192.168.167.133"
+rpi_ip2 = "" #ip address
 toMotors2 = 9999
 # fromZigSim = 50001
 client2 = SimpleUDPClient(rpi_ip2, toMotors2)  # Create client
